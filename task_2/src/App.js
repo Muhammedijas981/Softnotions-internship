@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import IndividualComponent from './components/individual';
+import './App.css'
 
-function App() {
+const App = () => {
+  const fetchData = async (position) => {
+    const response = await fetch(`http://localhost:3000/individuals/${position}`);
+    const data = await response.json();
+    return data;
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main_container'>
+      <h1>Data Fetching and Display</h1>
+      <IndividualComponent position="First" fetchData={fetchData} />
+      <IndividualComponent position="Second" fetchData={fetchData} />
+      <IndividualComponent position="Third" fetchData={fetchData} />
     </div>
   );
-}
+};
 
 export default App;
