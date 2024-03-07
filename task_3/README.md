@@ -37,4 +37,3 @@ Build a web application that allows users to upload an image and generate a PDF.
 2. Click "Generate PDF" to create a PDF with the uploaded image and entered name.
 3. The PDF will open in a new tab.
 
-Feel free to explore and enhance the web application as needed! 🚀
