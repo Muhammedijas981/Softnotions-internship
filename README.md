@@ -1,6 +1,6 @@
 # MERN Stack Internship Screening Tasks
 
-This repository contains four tasks designed to assess your proficiency in full-stack web development using MongoDB, Express.js, React.js, and Node.js (MERN). Each task has its own separate README file for robust use. 
+This repository contains four tasks designed to assess my proficiency in full-stack web development using MongoDB, Express.js, React.js, and Node.js (MERN). Each task has its own separate README file for robust use. 
 
 ## Tasks
 
