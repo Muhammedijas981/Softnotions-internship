@@ -67,6 +67,7 @@ const FormComponent = () => {
 
   return (
     <div className='main_container'>
+      <p>FORM TO EXCEL FILE GENERATOR</p>
       <div className='form_container'>
         <form className='form'>
           <div className='input'>
@@ -91,7 +92,7 @@ const FormComponent = () => {
           </div>
           <div className='sumit-btn'>
             <button type="button" onClick={handleSubmit}>
-              Submit
+              Generate
             </button>
           </div>
         </form>

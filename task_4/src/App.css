@@ -4,6 +4,7 @@
   align-items: center;
   min-width: 100vw;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 .form_container {
@@ -88,4 +89,9 @@
   height: 40px;
   font-size: 18px;
   border-radius: 10px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 30px;
 }
