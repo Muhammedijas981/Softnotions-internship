@@ -1,0 +1,59 @@
+.main_container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input_container {
+  display: flex;
+  height: 60vh;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #F1F5A8;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+input {
+  padding: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  border-radius: 2px blue;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.choosefile {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.inputbox {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit_btn {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+P {
+  font-size: 30px;
+  font-weight: 600;
+}
